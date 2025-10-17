@@ -1,0 +1,49 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #a9ecb9;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  color: #042e06;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.order-form input, .order-form button {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+.order-card {
+  border: 1px solid #0d0c0c;
+  padding: 10px;
+  margin: 10px 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.order-summary div {
+  margin-left: 10px;
+}
+
+.summary button {
+  background-color: #0a6847;
+  color: rgb(250, 242, 242);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.summary button:hover {
+  background-color: #08472f;
+}
